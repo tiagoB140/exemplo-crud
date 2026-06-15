@@ -1,0 +1,19 @@
+{
+    "name": "src",
+    "version": "1.0.0",
+    "main": "index.js",
+
+
+
+    "scripts": {
+        "start": "node./modules/json-server/lib/cli/bin.js --watch ./data/db.json --static public",
+        "test": "echo \"Error: no test specified\"&& exit 1"
+    },
+    "keybords": [],
+    "author": "",
+    "license": "ISC",
+    "descripition":"",
+    "dependencies:":{
+        "json-server": "^0.17.4"
+    }
+}         
